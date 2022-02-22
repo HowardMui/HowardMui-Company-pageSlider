@@ -58,6 +58,7 @@ const Hero = ({ slides }) => {
                     <Button
                       to={slide.path}
                       primary
+                      animation
                       css={`
                         display: inline-block;
                         max-width: 160px;
