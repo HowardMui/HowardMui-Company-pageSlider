@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <FooterDiv>
       <TextDiv>
-        <p>Copyright &copy; HowardMui. All Rights Reserved</p>
+        <p>Copyright &copy; 2022 HowardMui. All Rights Reserved</p>
         <p>Designed by Howard Mui</p>
       </TextDiv>
     </FooterDiv>
