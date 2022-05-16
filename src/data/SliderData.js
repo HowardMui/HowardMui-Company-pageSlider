@@ -5,12 +5,14 @@ import ImageFour from "../images/house4.jpg";
 
 export const SliderData = [
   {
-    title: "Luxury Villa in Bali, Indonesia",
+    title: "Palazzo di Amore, United States",
     price: "$4,280,000",
     path: "/homes",
     label: "Click for more",
     image: ImageOne,
     alt: "House",
+    showcase1: "Please note that this is a static website only.",
+    showcase2: "The route cannot be changed. Just for React and Style components showcase.",
   },
   {
     title: "House in San Jose, Costa Rica",
@@ -19,14 +21,18 @@ export const SliderData = [
     label: "Click for more",
     image: ImageTwo,
     alt: "House",
+    showcase1: "Please note that this is a static website only.",
+    showcase2: "The route cannot be changed. Just for React and Style components showcase.",
   },
   {
-    title: "Luxury Villa in Bali, Indonesia",
+    title: "Villa Les Cèdres, France",
     price: "$8,420,000",
     path: "/homes",
     label: "Click for more",
     image: ImageThree,
     alt: "House",
+    showcase1: "Please note that this is a static website only.",
+    showcase2: "The route cannot be changed. Just for React and Style components showcase.",
   },
   {
     title: "Luxury Villa in Bali, Indonesia",
@@ -35,5 +41,7 @@ export const SliderData = [
     label: "Click for more",
     image: ImageFour,
     alt: "House",
+    showcase1: "Please note that this is a static website only.",
+    showcase2: "The route cannot be changed. Just for React and Style components showcase.",
   },
 ];

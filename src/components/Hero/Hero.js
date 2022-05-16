@@ -66,6 +66,8 @@ const Hero = ({ slides }) => {
                     >
                       {slide.label}
                     </Button>
+                    <p style={{ marginTop: "60px", color: "#fff" }}>{slide.showcase1}</p>
+                    <p style={{ color: "#fff" }}>{slide.showcase2}</p>
                   </HeroContent>
                 </HeroSlider>
               )}

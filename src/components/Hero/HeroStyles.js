@@ -98,7 +98,12 @@ export const HeroContent = styled.div`
 
   p {
     margin-bottom: 1.2rem;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
+    /* text-shadow: #000 1px 0 50px; */
+    text-shadow: 2px 4px 5px #474747;
+    /* text-shadow: 0 -1px 4px #fff, 0 -2px 10px #000, 0 -10px 20px #000, 0 -18px 40px #f00; */
+    /* text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4); */
+    /* textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" */
     animation: ${FadeInText} 1s ease-in-out;
   }
 
