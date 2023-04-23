@@ -3,10 +3,18 @@
 import React, { useState, useRef, useEffect } from "react";
 // import styled, { css, keyframes } from "styled-components/macro";
 import { Button } from "../Button";
-import { HeroContent, HeroImage, HeroSection, HeroSlide, HeroSlider, HeroWrapper, NextArrow, PrevArrow, SliderButtonsLeft, SliderButtonsRight } from "./HeroStyles";
-// import { IoMdArrowRoundForward } from "react-icons/io";
-// import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
-// import "animate.css";
+import {
+  HeroContent,
+  HeroImage,
+  HeroSection,
+  HeroSlide,
+  HeroSlider,
+  HeroWrapper,
+  NextArrow,
+  PrevArrow,
+  SliderButtonsLeft,
+  SliderButtonsRight,
+} from "./HeroStyles";
 
 const Hero = ({ slides }) => {
   const [isSlide, setSlide] = useState(0);
